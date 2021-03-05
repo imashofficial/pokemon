@@ -2,8 +2,8 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import PokemonApp from './PokemonApp';
 
-test('renders learn react link', () => {
+test('first page should be loaded automatically', () => {
   render(<PokemonApp />);
-  const linkElement = screen.getByText(/learn react/i);
+  const linkElement = screen.getByTestId('loading');
   expect(linkElement).toBeInTheDocument();
 });

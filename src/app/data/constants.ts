@@ -1,0 +1,10 @@
+const CONSTANTS = {
+    ON_DATA_LOADING: 'pokemon/ON_DATA_LOADING',
+    ON_LIST_DATA: 'pokemon/ON_LIST_DATA',
+    ON_SET_COUNT_IN_PAGE: 'pokemon/ON_SET_COUNT_IN_PAGE',
+    ON_SET_ACTIVE_PAGE: 'pokemon/ON_SET_ACTIVE_PAGE',
+    ON_SHOW_DETAIL: 'pokemon/ON_SHOW_DETAIL',
+    ON_DETAIL_DATA: 'pokemon/ON_DETAIL_DATA'
+};
+
+export { CONSTANTS };
